@@ -41,8 +41,8 @@
    * Half a gutter is 10px, 10/960 (context) = 1.0416666%
    *
    */
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
+  margin-left: 1.04166666%;
+  margin-right: 1.04166666%;
 }
 
 /* Mobile defaults */
@@ -50,26 +50,25 @@
   width: 100%;
 }
 
-
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
   /* 3 columns, 3/12 in % */
   .col-3 {
-    width: 25%;
+    width: calc(25% - 2.0833333%);
   }
 
   /* 4 columns */
   .col-4 {
-    width: 33.33333%;
+    width: calc(33.33333% - 2.0833333%);
   }
 
   /* 6 columns */
   .col-6 {
-    width: 50%;
+    width: calc(50% - 2.0833333%);
   }
 
   /* 12 columns */
   .col-12 {
-    width: 100%;
+    width: calc(100% - 2.0833333%);
   }
 }

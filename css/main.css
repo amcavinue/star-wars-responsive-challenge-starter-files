@@ -1,9 +1,13 @@
-main {
-  padding-top: 100px;
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-main .row {
-  margin-bottom: 20px;
+h1, p {
+  margin: 0;
+  padding: 0;
 }
 
 .box {
@@ -12,19 +16,11 @@ main .row {
   padding-top: 30px;
 }
 
-.black {
-  background-color: black;
-  color: white;
+header {
+  background-color: #E8B952;
 }
 
-.green {
-  background-color: green;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.blue {
-  background-color: blue;
+.page-heading {
+  max-width: 960px;
+  margin: 0 auto;
 }

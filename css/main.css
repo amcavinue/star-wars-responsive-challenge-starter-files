@@ -10,10 +10,14 @@ h1, p {
   padding: 0;
 }
 
-.box {
-  height: 200px;
-  text-align: center;
+.card {
+  height: 400px;
   padding-top: 30px;
+  border: 0.125em solid lightgrey;
+}
+
+.card img {
+  max-width: 100%;
 }
 
 header {
@@ -22,5 +26,7 @@ header {
 
 .page-heading {
   max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
 }
